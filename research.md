@@ -1,0 +1,10 @@
+1. Methods for Neural Style Transfer:
+Neural style transfer is an optimization technique used to take two images (content image and style reference image) and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image. This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network. I will be using the VGG19 network with pretrained weights and altering a few layers - content layers - 'block5_conv2' and style layers - 'block1_conv1', 'block2_conv1', 'block3_conv1', 'block4_conv1', 'block5_conv1'. I will be using the a combination of loss from the content image, style image and the variational loss as a way to define loss for training through backpropogation. Also, I will be using the Adam optimizer. This can all be implemented in tensorflow.
+
+
+2. Methods for applying different filters to images:
+There are two libraries that I have come across that can help me in applying different filters to images - 
+	1. OpenCV - 
+	This has methods that I can use to apply filters to my image. The way in which this is done is by applying a nxn filter to the image and shifting this nxn filter over the image which can be represented as an mxm array. The application of the filter or kernel is through 2D convolution. Some of the filters are GaussianBlur, MeanBlur, Sharpen. These filters can be defined by us by defining a 2D numpy array with specific values.
+	2. Pillow - 
+	This has methods that I can use to apply filters to my image. The way in which this is done is far more simpler than the method through opencv as there are built in filters like BLUR, CONTOUR, DETAIL, EDGE_ENHANCE, EDGE_ENHANCE_MORE, EMBOSS, FIND_EDGES, HARPEN, SMOOTH, SMOOTH_MORE.
