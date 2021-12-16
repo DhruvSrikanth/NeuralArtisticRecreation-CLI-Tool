@@ -1,25 +1,3 @@
-# Proposals
-My ideas for my final project are...
-
-1. Project idea #1: (This is the idea that I am going to be moving forward with)
-I would like to create an API to enable people to experience the art of their choosing on a more personal level. It will have methods to - 
-	(i) Convert an input image to an stylized image by the artist and in the theme of their choosing. The style (artist style and color style) will be used in recreating the input image as a stylized output. This can be done through neural style transfer.
-	(ii) Apply certain filters (like invert, black-and-white) to the stylized image to further customize the art to the users choosing. 
-
-For example, recreating a picture of the Chicago skyline, as if it was painted in the same way as Van Gogh’s The Starry Night.
-
-2. Project idea #2:
-I would like to engage in exploratory data analysis on a dataset containing details on Netflix shows and movies. I hope to answer some of the following questions - 
-	(i) How are TV shows and movies received in comparison to one another?
-	(ii) What time of year is an optimal time to push out a new feature (show or movie)?
-	(iii) What kinds of content are the highest rated? And why?
-	(iv) What are the top countries consuming such content?
-
-3. 
-
-
----
-
 # Project - "Neural Artistic Recreation"
 
 1. Project Idea - I would like to create an API to enable people to experience the art of their choosing on a more personal level.
@@ -30,11 +8,11 @@ I would like to engage in exploratory data analysis on a dataset containing deta
 	2. Apply certain filters (like invert, black-and-white) to the stylized image to further customize the art to the users choosing. 
 
 3. Project Execution Plan - 
-	1. By the end of week 4, I will have explored methods for neural style transfer and methods to apply certain filters on images.
-	2. By the end of week 5, I will have created a pipeline that takes an input image and outputs an image with a filter (by choice) applied to it.
-	3. By the end of week 6, I will have created a pipeline that performs neural style transfer (users will use the style image of their choice and the input image of their choice in the pipeline).
-	4. By the end of week 7, I will have integrated both of the above pipelines.
-	5. By the end of week 8, I will have created a module/package for the entire pipeline. 
+	1. By the end of week 1, I will have explored methods for neural style transfer and methods to apply certain filters on images.
+	2. By the end of week 2, I will have created a pipeline that takes an input image and outputs an image with a filter (by choice) applied to it.
+	3. By the end of week 3, I will have created a pipeline that performs neural style transfer (users will use the style image of their choice and the input image of their choice in the pipeline).
+	4. By the end of week 4, I will have integrated both of the above pipelines.
+	5. By the end of week 5, I will have created a module/package for the entire pipeline. 
 	6. Finally, I will include some "popular" style images that users can use if they do not have a style image in mind.
 
 4. Project Demo - 
